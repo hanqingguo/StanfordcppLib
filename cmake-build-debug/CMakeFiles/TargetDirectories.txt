@@ -1,0 +1,5 @@
+/home/hanqing/CLionProjects/app/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hanqing/CLionProjects/app/cmake-build-debug/CMakeFiles/stanford.dir
+/home/hanqing/CLionProjects/app/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hanqing/CLionProjects/app/cmake-build-debug/CMakeFiles/main.dir
+/home/hanqing/CLionProjects/app/cmake-build-debug/CMakeFiles/app.dir

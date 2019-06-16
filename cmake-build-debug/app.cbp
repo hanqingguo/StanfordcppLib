@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="app"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stanford">
+				<Option output="/home/hanqing/CLionProjects/app/cmake-build-debug/libstanford.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 stanford"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stanford/fast">
+				<Option output="/home/hanqing/CLionProjects/app/cmake-build-debug/libstanford.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 stanford/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/hanqing/CLionProjects/app/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/hanqing/CLionProjects/app/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app">
+				<Option output="/home/hanqing/CLionProjects/app/cmake-build-debug/app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 app"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="app/fast">
+				<Option output="/home/hanqing/CLionProjects/app/cmake-build-debug/app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 app/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hanqing/CLionProjects/app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/basicgraph.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/basicgraph.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/collections.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/dawglexicon.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/dawglexicon.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/deque.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/graph.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/grid.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/hashcode.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/hashcode.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/hashmap.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/hashset.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/lexicon.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/lexicon.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/linkedhashmap.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/linkedhashset.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/linkedlist.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/map.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/pqueue.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/priorityqueue.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/queue.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/set.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/shuffle.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/shuffle.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/sparsegrid.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/stack.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/stl.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/collections/vector.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gbufferedimage.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gbufferedimage.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gevents.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gevents.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gfilechooser.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gfilechooser.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/ginteractors.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/ginteractors.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gobjects.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gobjects.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/goptionpane.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/goptionpane.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtable.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtable.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtextarea.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtextarea.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtimer.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtimer.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtypes.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gtypes.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gwindow.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/graphics/gwindow.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/base64.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/base64.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/bitstream.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/bitstream.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/console.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/console.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/filelib.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/filelib.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/plainconsole.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/plainconsole.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/server.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/server.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/simpio.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/simpio.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/tokenscanner.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/tokenscanner.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/urlstream.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/io/urlstream.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/consolestreambuf.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/echoinputstreambuf.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/foreachpatch.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/forwardingstreambuf.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/init.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/limitoutputstreambuf.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/platform.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/platform.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/randompatch.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/static.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/tokenpatch.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/tplatform.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/version.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/private/version.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/call_stack.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/call_stack_gcc.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/call_stack_windows.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/error.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/error.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/exceptions.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/exceptions.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/system/stack_exception.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/direction.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/direction.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/foreach.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/gmath.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/gmath.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/note.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/note.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/observable.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/observable.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/point.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/point.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/random.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/random.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/recursion.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/recursion.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/regexpr.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/regexpr.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/sound.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/sound.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/strlib.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/strlib.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/timer.cpp">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib/util/timer.h">
+			<Option target="stanford"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/src/hello.cpp">
+			<Option target="app"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

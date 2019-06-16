@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/StanfordCPPLib/io/simpio.h
+iostream
+-
+string
+-
+private/init.h
+-
+
+../lib/StanfordCPPLib/private/init.h
+cstdlib
+-
+stdio.h
+-
+
+/home/hanqing/CLionProjects/app/main.cpp
+iostream
+-
+io/simpio.h
+/home/hanqing/CLionProjects/app/io/simpio.h
+
