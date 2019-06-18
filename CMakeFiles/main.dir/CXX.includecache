@@ -11,6 +11,8 @@ iostream
 -
 io/simpio.h
 /home/hanqing/CLionProjects/app/io/simpio.h
+cmath
+-
 
 lib/StanfordCPPLib/io/simpio.h
 iostream

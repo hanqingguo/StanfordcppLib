@@ -1,1 +1,1 @@
-/usr/bin/c++   -ldl -lpthread   CMakeFiles/main.dir/main.cpp.o  -o main libstanford.a -ldl 
+/usr/bin/c++   -ldl -lpthread -g   CMakeFiles/main.dir/main.cpp.o  -o main libstanford.a -ldl 

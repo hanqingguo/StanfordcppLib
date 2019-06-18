@@ -1,5 +1,7 @@
 /home/hanqing/CLionProjects/app/CMakeFiles/rebuild_cache.dir
-/home/hanqing/CLionProjects/app/CMakeFiles/edit_cache.dir
-/home/hanqing/CLionProjects/app/CMakeFiles/main.dir
 /home/hanqing/CLionProjects/app/CMakeFiles/app.dir
+/home/hanqing/CLionProjects/app/CMakeFiles/main.dir
+/home/hanqing/CLionProjects/app/CMakeFiles/reference_semantic2.dir
+/home/hanqing/CLionProjects/app/CMakeFiles/edit_cache.dir
 /home/hanqing/CLionProjects/app/CMakeFiles/stanford.dir
+/home/hanqing/CLionProjects/app/CMakeFiles/reference_semantic1.dir

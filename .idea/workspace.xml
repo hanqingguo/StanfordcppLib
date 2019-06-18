@@ -2,9 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="app" targetName="app" />
+      <config projectName="app" targetName="reference_semantic" />
       <config projectName="app" targetName="stanford" />
       <config projectName="app" targetName="main" />
+      <config projectName="app" targetName="app" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,7 +14,86 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f24d21-2652-4a7c-911b-252e0194935b" name="Default Changelist" comment="" />
+    <list default="true" id="84f24d21-2652-4a7c-911b-252e0194935b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/app.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/app.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/app.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/app.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/app.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/app.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/basicgraph.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/basicgraph.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/dawglexicon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/dawglexicon.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/hashcode.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/hashcode.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/lexicon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/lexicon.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/shuffle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/collections/shuffle.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gbufferedimage.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gbufferedimage.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gevents.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gevents.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gfilechooser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gfilechooser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/ginteractors.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/ginteractors.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gobjects.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gobjects.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/goptionpane.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/goptionpane.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtextarea.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtextarea.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtimer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtimer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtypes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gtypes.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/graphics/gwindow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/base64.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/base64.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/bitstream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/bitstream.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/console.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/console.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/filelib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/filelib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/plainconsole.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/plainconsole.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/server.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/server.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/simpio.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/simpio.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/tokenscanner.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/tokenscanner.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/urlstream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/io/urlstream.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/private/platform.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/private/platform.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/private/version.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/private/version.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/call_stack_gcc.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/call_stack_gcc.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/call_stack_windows.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/call_stack_windows.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/error.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/error.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/exceptions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/system/exceptions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/direction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/direction.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/gmath.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/gmath.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/note.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/note.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/observable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/observable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/point.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/point.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/random.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/random.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/recursion.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/recursion.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/regexpr.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/regexpr.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/sound.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/sound.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/strlib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/strlib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/timer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/lib/StanfordCPPLib/util/timer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/stanford.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/stanford.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libstanford.a" beforeDir="false" afterPath="$PROJECT_DIR$/libstanford.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,32 +108,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="510">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hello.cpp">
+        <entry file="file://$PROJECT_DIR$/src/ref2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ref1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-start-column="2" selection-end-line="16" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -63,26 +149,41 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/hello.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/src/ref2.cpp" />
+        <option value="$PROJECT_DIR$/src/ref1.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="308" />
-    <option name="y" value="367" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="532" />
+    <option name="y" value="680" />
     <option name="width" value="1140" />
     <option name="height" value="773" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,17 +194,18 @@
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cmake_testapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -119,13 +221,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.main">
+  <component name="RunManager" selected="CMake Application.reference_semantic2">
     <configuration name="app" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="app" TARGET_NAME="app" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="app" RUN_TARGET_NAME="app">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="app" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="app" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reference_semantic1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="app" TARGET_NAME="reference_semantic1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="app" RUN_TARGET_NAME="reference_semantic1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reference_semantic2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="app" TARGET_NAME="reference_semantic2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="app" RUN_TARGET_NAME="reference_semantic2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -138,6 +250,8 @@
     <list>
       <item itemvalue="CMake Application.app" />
       <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.reference_semantic1" />
+      <item itemvalue="CMake Application.reference_semantic2" />
       <item itemvalue="CMake Application.stanford" />
     </list>
   </component>
@@ -153,33 +267,43 @@
       <updated>1560711276569</updated>
       <workItem from="1560711278604" duration="2632000" />
       <workItem from="1560714526749" duration="158000" />
-      <workItem from="1560714731609" duration="361000" />
+      <workItem from="1560714731609" duration="645000" />
+      <workItem from="1560807543742" duration="6302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3151000" />
+    <option name="totallyTimeSpent" value="9737000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="308" y="367" width="1140" height="773" extended-state="0" />
+    <frame x="67" y="25" width="2493" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25868374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11769514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45820433" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45788336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32972136" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32829374" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972136" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="CMake" order="12" visible="true" weight="0.22894168" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -193,17 +317,17 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/main">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/main.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hello.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="-51">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
@@ -212,11 +336,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ref2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ref1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-start-column="2" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
         </state>
       </provider>
     </entry>

@@ -21,8 +21,15 @@ file(GLOB stanford_files
 add_library(stanford ${stanford_files})
 
 set(app_SOURCES src/hello.cpp)
+set(example1 src/ref1.cpp)
+set(example2 src/ref2.cpp)
+
 link_libraries(stanford)
 add_executable(app ${app_SOURCES})
 add_executable(main main.cpp)
+add_executable(reference_semantic1 ${example1})
+add_executable(reference_semantic2 ${example2})
+
 target_link_libraries(main ${CMAKE_DL_LIBS})
 target_link_libraries(app ${CMAKE_DL_LIBS})
+target_link_libraries(reference_semantic1 ${CMAKE_DL_LIBS})

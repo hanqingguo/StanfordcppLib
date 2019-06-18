@@ -1,1 +1,1 @@
-/usr/bin/c++   -ldl -lpthread   CMakeFiles/app.dir/src/hello.cpp.o  -o app libstanford.a -ldl 
+/usr/bin/c++   -ldl -lpthread -g   CMakeFiles/app.dir/src/hello.cpp.o  -o app libstanford.a -ldl 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -ldl -lpthread -g   CMakeFiles/reference_semantic.dir/src/ref1.cpp.o CMakeFiles/reference_semantic.dir/src/ref2.cpp.o  -o reference_semantic libstanford.a -ldl 

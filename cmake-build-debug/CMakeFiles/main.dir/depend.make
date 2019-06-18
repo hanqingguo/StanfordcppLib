@@ -4,4 +4,5 @@
 CMakeFiles/main.dir/main.cpp.o: ../lib/StanfordCPPLib/io/simpio.h
 CMakeFiles/main.dir/main.cpp.o: ../lib/StanfordCPPLib/private/init.h
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
+CMakeFiles/main.dir/main.cpp.o: ../main.h
 
