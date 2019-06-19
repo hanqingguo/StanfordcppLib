@@ -1,0 +1,1 @@
+/usr/bin/c++   -ldl -lpthread -g   CMakeFiles/reference_semantic3.dir/src/string1.cpp.o  -o reference_semantic3 libstanford.a 

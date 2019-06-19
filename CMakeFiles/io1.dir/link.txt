@@ -1,0 +1,1 @@
+/usr/bin/c++   -ldl -lpthread -g   CMakeFiles/io1.dir/src/io1.cpp.o  -o io1 libstanford.a 

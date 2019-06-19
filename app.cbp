@@ -27,6 +27,80 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hanqing/CLionProjects/app"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io2">
+				<Option output="/home/hanqing/CLionProjects/app/io2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 io2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io2/fast">
+				<Option output="/home/hanqing/CLionProjects/app/io2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 io2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io1">
+				<Option output="/home/hanqing/CLionProjects/app/io1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 io1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io1/fast">
+				<Option output="/home/hanqing/CLionProjects/app/io1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 io1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="app">
 				<Option output="/home/hanqing/CLionProjects/app/app" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hanqing/CLionProjects/app"/>
@@ -123,16 +197,6 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/hanqing/CLionProjects/app"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="stanford">
 				<Option output="/home/hanqing/CLionProjects/app/libstanford.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hanqing/CLionProjects/app"/>
@@ -192,6 +256,38 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 reference_semantic1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string1">
+				<Option output="/home/hanqing/CLionProjects/app/string1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 string1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string1/fast">
+				<Option output="/home/hanqing/CLionProjects/app/string1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanqing/CLionProjects/app"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanqing/CLionProjects/app/lib/StanfordCPPLib"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 string1/fast"/>
 					<CompileFile command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -f &quot;/home/hanqing/CLionProjects/app/Makefile&quot;  VERBOSE=1 clean"/>
@@ -546,11 +642,20 @@
 		<Unit filename="/home/hanqing/CLionProjects/app/src/hello.cpp">
 			<Option target="app"/>
 		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/src/io1.cpp">
+			<Option target="io1"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/src/io2.cpp">
+			<Option target="io2"/>
+		</Unit>
 		<Unit filename="/home/hanqing/CLionProjects/app/src/ref1.cpp">
 			<Option target="reference_semantic1"/>
 		</Unit>
 		<Unit filename="/home/hanqing/CLionProjects/app/src/ref2.cpp">
 			<Option target="reference_semantic2"/>
+		</Unit>
+		<Unit filename="/home/hanqing/CLionProjects/app/src/string1.cpp">
+			<Option target="string1"/>
 		</Unit>
 		<Unit filename="/home/hanqing/CLionProjects/app/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

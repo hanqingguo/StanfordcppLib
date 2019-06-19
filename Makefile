@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named io2
+
+# Build rule for target.
+io2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 io2
+.PHONY : io2
+
+# fast build rule for target.
+io2/fast:
+	$(MAKE) -f CMakeFiles/io2.dir/build.make CMakeFiles/io2.dir/build
+.PHONY : io2/fast
+
+#=============================================================================
+# Target rules for targets named io1
+
+# Build rule for target.
+io1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 io1
+.PHONY : io1
+
+# fast build rule for target.
+io1/fast:
+	$(MAKE) -f CMakeFiles/io1.dir/build.make CMakeFiles/io1.dir/build
+.PHONY : io1/fast
+
+#=============================================================================
 # Target rules for targets named app
 
 # Build rule for target.
@@ -174,6 +200,19 @@ reference_semantic1: cmake_check_build_system
 reference_semantic1/fast:
 	$(MAKE) -f CMakeFiles/reference_semantic1.dir/build.make CMakeFiles/reference_semantic1.dir/build
 .PHONY : reference_semantic1/fast
+
+#=============================================================================
+# Target rules for targets named string1
+
+# Build rule for target.
+string1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string1
+.PHONY : string1
+
+# fast build rule for target.
+string1/fast:
+	$(MAKE) -f CMakeFiles/string1.dir/build.make CMakeFiles/string1.dir/build
+.PHONY : string1/fast
 
 lib/StanfordCPPLib/collections/basicgraph.o: lib/StanfordCPPLib/collections/basicgraph.cpp.o
 
@@ -1363,6 +1402,60 @@ src/hello.cpp.s:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/hello.cpp.s
 .PHONY : src/hello.cpp.s
 
+src/io1.o: src/io1.cpp.o
+
+.PHONY : src/io1.o
+
+# target to build an object file
+src/io1.cpp.o:
+	$(MAKE) -f CMakeFiles/io1.dir/build.make CMakeFiles/io1.dir/src/io1.cpp.o
+.PHONY : src/io1.cpp.o
+
+src/io1.i: src/io1.cpp.i
+
+.PHONY : src/io1.i
+
+# target to preprocess a source file
+src/io1.cpp.i:
+	$(MAKE) -f CMakeFiles/io1.dir/build.make CMakeFiles/io1.dir/src/io1.cpp.i
+.PHONY : src/io1.cpp.i
+
+src/io1.s: src/io1.cpp.s
+
+.PHONY : src/io1.s
+
+# target to generate assembly for a file
+src/io1.cpp.s:
+	$(MAKE) -f CMakeFiles/io1.dir/build.make CMakeFiles/io1.dir/src/io1.cpp.s
+.PHONY : src/io1.cpp.s
+
+src/io2.o: src/io2.cpp.o
+
+.PHONY : src/io2.o
+
+# target to build an object file
+src/io2.cpp.o:
+	$(MAKE) -f CMakeFiles/io2.dir/build.make CMakeFiles/io2.dir/src/io2.cpp.o
+.PHONY : src/io2.cpp.o
+
+src/io2.i: src/io2.cpp.i
+
+.PHONY : src/io2.i
+
+# target to preprocess a source file
+src/io2.cpp.i:
+	$(MAKE) -f CMakeFiles/io2.dir/build.make CMakeFiles/io2.dir/src/io2.cpp.i
+.PHONY : src/io2.cpp.i
+
+src/io2.s: src/io2.cpp.s
+
+.PHONY : src/io2.s
+
+# target to generate assembly for a file
+src/io2.cpp.s:
+	$(MAKE) -f CMakeFiles/io2.dir/build.make CMakeFiles/io2.dir/src/io2.cpp.s
+.PHONY : src/io2.cpp.s
+
 src/ref1.o: src/ref1.cpp.o
 
 .PHONY : src/ref1.o
@@ -1417,6 +1510,33 @@ src/ref2.cpp.s:
 	$(MAKE) -f CMakeFiles/reference_semantic2.dir/build.make CMakeFiles/reference_semantic2.dir/src/ref2.cpp.s
 .PHONY : src/ref2.cpp.s
 
+src/string1.o: src/string1.cpp.o
+
+.PHONY : src/string1.o
+
+# target to build an object file
+src/string1.cpp.o:
+	$(MAKE) -f CMakeFiles/string1.dir/build.make CMakeFiles/string1.dir/src/string1.cpp.o
+.PHONY : src/string1.cpp.o
+
+src/string1.i: src/string1.cpp.i
+
+.PHONY : src/string1.i
+
+# target to preprocess a source file
+src/string1.cpp.i:
+	$(MAKE) -f CMakeFiles/string1.dir/build.make CMakeFiles/string1.dir/src/string1.cpp.i
+.PHONY : src/string1.cpp.i
+
+src/string1.s: src/string1.cpp.s
+
+.PHONY : src/string1.s
+
+# target to generate assembly for a file
+src/string1.cpp.s:
+	$(MAKE) -f CMakeFiles/string1.dir/build.make CMakeFiles/string1.dir/src/string1.cpp.s
+.PHONY : src/string1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1424,12 +1544,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... io2"
+	@echo "... io1"
 	@echo "... app"
 	@echo "... main"
 	@echo "... reference_semantic2"
-	@echo "... edit_cache"
 	@echo "... stanford"
 	@echo "... reference_semantic1"
+	@echo "... string1"
 	@echo "... lib/StanfordCPPLib/collections/basicgraph.o"
 	@echo "... lib/StanfordCPPLib/collections/basicgraph.i"
 	@echo "... lib/StanfordCPPLib/collections/basicgraph.s"
@@ -1562,12 +1685,21 @@ help:
 	@echo "... src/hello.o"
 	@echo "... src/hello.i"
 	@echo "... src/hello.s"
+	@echo "... src/io1.o"
+	@echo "... src/io1.i"
+	@echo "... src/io1.s"
+	@echo "... src/io2.o"
+	@echo "... src/io2.i"
+	@echo "... src/io2.s"
 	@echo "... src/ref1.o"
 	@echo "... src/ref1.i"
 	@echo "... src/ref1.s"
 	@echo "... src/ref2.o"
 	@echo "... src/ref2.i"
 	@echo "... src/ref2.s"
+	@echo "... src/string1.o"
+	@echo "... src/string1.i"
+	@echo "... src/string1.s"
 .PHONY : help
 
 
